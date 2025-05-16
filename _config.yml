@@ -22,18 +22,20 @@ title: lexi's corner of the web
 email: 
 domain: lexidevs.github.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  lexi's little corner of the internet. currently not much here -- migrating from an old site to jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lexidevs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  
 
-# Build settings
-theme: no-style-please
-#plugins:
-#  - jekyll-feed
+remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "auto"
+  back_home_text: "← back" # customize text for homepage link in post layout
+  date_format: "%Y-%m" # customize how date is formatted in post list
+  show_description: true # show blog description in home page
+  lowercase_titles: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
