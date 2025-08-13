@@ -22,7 +22,7 @@ title: lexi's corner of the web
 email: 
 domain: www.lexiroth.com
 description: >- # this means to ignore newlines until "baseurl:"
-  lexi's little corner of the internet. currently not much here -- migrating from an old site to jekyll.
+  lexi's blog 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.lexiroth.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
@@ -33,8 +33,8 @@ remote_theme: riggraz/no-style-please
 theme_config:
   appearance: "auto"
   back_home_text: "← back" # customize text for homepage link in post layout
-  date_format: "%Y-%m" # customize how date is formatted in post list
-  show_description: true # show blog description in home page
+  date_format: "%Y-%m-%d" # customize how date is formatted in post list
+  show_description: false # show blog description in home page
   lowercase_titles: true
 
 # Exclude from processing.

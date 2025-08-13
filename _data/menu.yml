@@ -1,0 +1,16 @@
+entries:
+  - title: "about me:"
+    entries:
+      - title: student, software engineer, full-stack developer
+      - title: interested in software and hardware security
+      - title: enjoy finding new ways to do things, intended or not
+  
+  - title: blog
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See all...
+      show_more_url: archive.html
+
+  - title: rss
+    url: feed.xml
