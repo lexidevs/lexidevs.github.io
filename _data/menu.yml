@@ -7,6 +7,13 @@ entries:
       - title: on github
         url: https://github.com/lexidevs
   
+  - title: contact
+    entries:
+      - title: >-
+          via email, at <a href="mailto:me@lexiroth.com">me@lexiroth.com</a>. 
+          i'll be more likely to respond if you PGP sign or encrypt your message! my public key can be found 
+          <a href="https://keys.openpgp.org/vks/v1/by-fingerprint/8F6761A9487038899F7DAE492B1B699A75F140CD">here.</a>
+
   - title: blog
     post_list:
       limit: 5
