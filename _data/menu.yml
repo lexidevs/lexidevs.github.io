@@ -4,6 +4,8 @@ entries:
       - title: student, software engineer, full-stack developer
       - title: interested in software and hardware security
       - title: enjoy finding new ways to do things, intended or not
+      - title: on github
+        url: https://github.com/lexidevs
   
   - title: blog
     post_list:
