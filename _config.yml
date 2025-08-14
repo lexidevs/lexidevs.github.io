@@ -30,12 +30,17 @@ github_username:
 
 remote_theme: riggraz/no-style-please
 
+permalink: /:year-:month-:day-:slug.html
+
 theme_config:
   appearance: "auto"
   back_home_text: "← back" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted in post list
   show_description: false # show blog description in home page
   lowercase_titles: true
+
+plugins:
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
