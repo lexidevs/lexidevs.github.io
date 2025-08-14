@@ -1,0 +1,10 @@
+<footer aria-label="Footer" style="margin: 1rem">
+  <p style="text-align: center;">&copy;
+    {% if page.date %}
+      {{ page.date | date: "%Y" }}
+    {% else %}
+      {{ site.time | date: "%Y" }}
+    {% endif %}
+    lexi roth. all rights reserved. the training of AI models on this content is prohibited.
+  </p>
+</footer>
